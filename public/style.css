@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    background-color: blue;
+    color: white;
+}
+
+#buttontag {
+    margin-left: 20px;
+}
