@@ -47,7 +47,7 @@ let temperatureLayout = {
 Plotly.newPlot('lineDiv', [temperatureData], temperatureLayout);
 
 
-const brokerUrl = "ws://ec2-34-230-56-184.compute-1.amazonaws.com:9001/mqtt";
+const brokerUrl = "ws://ec2-54-84-16-243.compute-1.amazonaws.com:9001/mqtt";
 const clientId = "web-client-" + new Date().getTime();  // create random clientId 
 let temperatureTopic = "temperature"; 
 let nurseTopic = "nurseMessage";
